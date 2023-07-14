@@ -11,7 +11,7 @@
 # -----------------
 en: &DEFAULT_EN
   header:
-    title: Welcome to IT by JJ
+    title: IT BY JJ
     button: Contact Me
     buttonlink: "#contact"
 
@@ -32,14 +32,23 @@ en: &DEFAULT_EN
 
   portfolio:
     title: "Portfolio"
-    text: "Coming Soon"
     section: portfolio
     closebutton: "Close Project"
 
   clients:
     section: clients
     max-height: 100px
-    horizontal-scrolling: "" #"yes/no"
+    horizontal-scrolling: "no" #"yes/no"
+    list:
+      - title: "R2i Games"
+        url: https://roadtoinfamy.com/
+        logo: assets/img/clients/r2igames.png
+      - title: "Gamin'BIZ"
+        url: https://gaminbiz.nl/
+        logo: assets/img/clients/gaminbiz.png
+      - title: "Board Game Arena"
+        url: https://boardgamearena.com/
+        logo: assets/img/clients/bga.png
 
   team:
     title: "Nice To Meet You"

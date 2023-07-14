@@ -12,9 +12,9 @@ header.masthead {
     padding-bottom: 100px;
     .intro-lead-in {
       font-size: 22px;
-      font-style: italic;
       line-height: 22px;
-      margin-bottom: 25px;
+      margin-top: 10px;
+      margin-bottom: 10px;
       @include serif-font;
     }
     .intro-heading {
@@ -29,13 +29,11 @@ header.masthead {
 @media (min-width: 768px) {
   header.masthead {
     .intro-text {
-      padding-top: 300px;
-      padding-bottom: 200px;
       .intro-lead-in {
         font-size: 40px;
-        font-style: italic;
         line-height: 40px;
-        margin-bottom: 25px;
+        margin-top: 10px;
+        margin-bottom: 10px;
         @include serif-font;
       }
       .intro-heading {

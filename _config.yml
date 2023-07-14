@@ -16,13 +16,13 @@ remote_theme: jekyll-agency
 url    : "http://itbyjj.com" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
 
-title      : IT by JJ
+title      : IT BY JJ
 email      :  #this is also the email contact forms will go to
 description: "Company website for IT by JJ"
 author     : Jordi Jansen
-# logo:     #optional, defaults to site title
-  # path: assets\img\clients\creative-market.jpg
-  # height: 60 #height in px, defaults to 52px
+logo:
+   path: assets\img\logo.png
+   height: 200 #height in px, defaults to 52px
 
 locale: "en-US" # See available languages in _data/sitetext.yml
 
